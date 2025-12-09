@@ -4,7 +4,7 @@
 USE `inventario`;
 
 -- Tabla PRODUCTO.
-CREATE TABLE
+CREATE TABLE 
     `PRODUCTO` (
         `NUMPROD` CHAR(3) NOT NULL,
         `NOMPROD` VARCHAR(30) NOT NULL,
