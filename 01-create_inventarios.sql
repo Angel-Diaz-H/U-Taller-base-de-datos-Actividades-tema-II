@@ -1,6 +1,3 @@
--- Script de creación para la base de datos `inventario` (MySQL).
--- DROP DATABASE IF EXISTS `inventario`;
--- CREATE DATABASE `inventario` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `inventario`;
 
 -- Tabla PRODUCTO.
@@ -20,7 +17,7 @@ CREATE TABLE
     `PROVEEDOR` (
         `NUMPROV` CHAR(3) NOT NULL,
         `NOMPROV` VARCHAR(30) NOT NULL,
-        `CIUDAD` VARCHAR(10) DEFAULT NULL,
+        `CIUDAD` VARCHAR(15) DEFAULT NULL,
         `ESTATUS` TINYINT DEFAULT 1,
         PRIMARY KEY (`NUMPROV`)
     ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4;

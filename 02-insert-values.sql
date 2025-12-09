@@ -1,0 +1,48 @@
+INSERT INTO PRODUCTO VALUES 
+    ('P01', 'MOUSE', 1, 'GRIS', 80, 100),
+    ('P02', 'MARCADOR', 5, 'NARANJA', 50, 50),
+    ('P03', 'LAPICES', 8, 'AZUL', 100, 200),
+    ('P04', 'CARPETA', 10, 'NEGRO', 500, 10),
+    ('P05', 'COMPUTADOR MOD HP1', 8, 'BLANCO', 5000, 10),
+    ('P06', 'COMPUTADORA MOD HP2', 1, 'NEGRO', 10000, 3),
+    ('P07', 'IPAD MOD A', 1, 'BLANCO', 7000, 100),
+    ('P08', 'IMPRESORA HP', 2, 'GRIS', 2000, 20),
+    ('P09', 'PIZARRA INTERACTIVA', 10, 'BLANCO', 30000, 2),
+    ('P10', 'PROYECTOR MULTIMEDIA', 2, 'NEGRO', 4000, 5),
+    ('P11', 'USB 32G', 1, 'VERDE', 200, 100),
+    ('P12', 'USB 16G', 1, 'ROSA', 200, 100);
+
+INSERT INTO PROVEEDOR VALUES 
+    ('S1', 'WILIAMS', 'LONDRES', 10),
+    ('S2', 'PETIT', 'PARIS', 20),
+    ('S3', 'LENNON', 'LONDRES', 10),
+    ('S4', 'ONASIS', 'ATENAS', 10),
+    ('S5', 'SMITH', 'NUEVA YORK', 30),
+    ('S6', 'GARZA', 'MONTERREY', 30),
+    ('S7', 'PEREZ', 'MEXICO', 30),
+    ('S8', 'CARDIN', 'PARIS', 20),
+    ('S9', 'BARRIENTOS', 'BUENOS AIRES', 20),
+    ('S10', 'SADA', 'MONTERREY', 30);
+
+INSERT INTO COMPRAS (NUMPROV, NUMPROD, CANTIDAD) VALUES 
+    ('S1', 'P01', 350),
+    ('S2', 'P02', 200),
+    ('S3', 'P03', 100),
+    ('S4', 'P04', 150),
+    ('S5', 'P05', 500),
+    ('S6', 'P06', 750),
+    ('S7', 'P07', 600),
+    ('S8', 'P08', 300),
+    ('S9', 'P09', 550),
+    ('S10', 'P09', 600),
+    ('S2', 'P01', 650),
+    ('S2', 'P02', 850),
+    ('S2', 'P04', 300),
+    ('S2', 'P06', 175),
+    ('S2', 'P08', 205),
+    ('S3', 'P01', 420),
+    ('S4', 'P01', 240),
+    ('S4', 'P10', 100),
+    ('S5', 'P11', 320),
+    ('S6', 'P11', 430),
+    ('S7', 'P11', 530);
