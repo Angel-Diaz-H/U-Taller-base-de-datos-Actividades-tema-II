@@ -2,6 +2,11 @@
 ## TALLER DE BASE DE DATOS, SCA-1025.
 ### ACTIVIDADES TEMA II
 
+**Requisitos previos.**
+1. Tener instalado Docker en el equipo.
+2. Tener un cliente MySQL para conectarse a la base de datos, como DBeaver.
+3. Descargar los archivos SQL proporcionados para la actividad.
+
 **Instrucciones de ejecución de actividad.**
 1. Ejecutar el docker-compose.yml para levantar el contenedor de MySQL.
     - Esto descargará la imagen oficial de MySQL y levantará un contenedor con la base de datos.
